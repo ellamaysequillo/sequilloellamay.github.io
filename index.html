@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/22467d97f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#SERVICES">SERVICES</a></li>
+                <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+                <li><a href="#CONTACT">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Design your art.</p>
+            <h1>Hi, I'm Ella <span>Sequillo</span></h1>
+            <p1 class="college-info">A 2nd Year College Student majoring Information Technology.</p1>
+        </div>
+    </div>
+</div>
+<!-- --------------------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="col1img.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Ella Sequillo, 20 years of age, currently residing
+                    at Southside, Makati City. I am also studying at Rizal Technological University
+                    as a 2nd year Information Technology Student. I am a University student that has a potential
+                to do some customize artworks.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab ('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab ('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab ('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Customizing</span><br>Logos</li>
+                        <li><span>Customizing</span><br>Banners</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2022-2023</span><br>Customer Service Representative</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022-Currently</span><br>Rizal Technological University</li>
+                        <li><span>2020-2022</span><br>MCA Montessori School</li>
+                        <li><span>2016-2020</span><br>Palar Integrated School</li>
+                        <li><span>2010-2016</span><br>Rizal Elementary School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------services------------ -->
+<div id="SERVICES">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="sevices-list">
+         <div>
+            <i class="fa-solid fa-pen-nib"></i>
+             <h2>Customize Logos</h2>
+             <p>Customizing logos is the act of tailoring a brand's visual identity, adjusting elements like colors and 
+                fonts to align with the brand's values and target audience. The goal is to create a unique, 
+                memorable symbol that communicates the brand essence and fosters recognition. 
+                It involves finding a balance between maintaining consistency and 
+                adapting to market trends or business strategies.</p>
+                <a href="#">Learn More</a>
+         </div>
+         <div>
+            <i class="fa-solid fa-pen"></i>
+            <h2>Customize Banners</h2>
+            <p>Customizing banners involves tailoring visual elements such as imagery, text, 
+                and layout to suit specific promotional or branding needs. 
+                The aim is to create eye-catching and effective displays that convey key messages 
+                and enhance the overall appeal of the content.</p>
+               <a href="#">Learn More</a>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------PORTFOLIO-------------- -->
+<div id="PORTFOLIO">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="jakelogo.png">
+                <div class="layer"></div>
+                <h3>Brand Logo</h3>
+                <p>The artful logo will unleash your brands perfection 
+                    in every single ways.</p>
+                    <a href="#"><i class="fa-solid fa-paperclip"></i></a>
+            </div>
+            <div class="work">
+                <img src="photobanner.png">
+                <div class="layer"></div>
+                <h3>Banner</h3>
+                <p>The artful banner will unleash your powerful thoughts 
+                    in every single ways.</p>
+                    <a href="#"><i class="fa-solid fa-paperclip"></i></a>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- --------------CONTACT---------- -->
+<div id="CONTACT">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ellamaysequillo@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>09687448220</p>
+               <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100073590676213"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_sleepyyella_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/_yunjek"><i class="fa-brands fa-x-twitter"></i></a>
+               </div>
+               <a href="Sequillo_EllaMay_CV.pdf" download class="btn btn2">DOWNLOAD CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                     <input type="email" name="Email" placeholder="Your email" required>
+                     <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ ella. Made with <i class="fa-solid fa-heart"></i> by ella</p>
+    </div>
+</div>
+
+
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links")
+  var tabcontents = document.getElementsByClassName("tab-contents")
+  function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+ } 
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxmXmbWvDtzAjDtZ4CwevqCPvqLV4E8SKRBQ74aCyOUIjZd1veJ1XXLjeGV4eCSBmVKTA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
